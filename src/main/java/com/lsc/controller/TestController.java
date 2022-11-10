@@ -1,7 +1,9 @@
 package com.lsc.controller;
 
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
 
 /**
  * @author lsc
@@ -13,10 +15,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
+
     @RequestMapping(value = "/test")
     public String testJenkins() {
         return "测试jenkins服务";
     }
+
 
 
 }
