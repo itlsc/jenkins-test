@@ -18,7 +18,7 @@ public class TestController {
 
     @RequestMapping(value = "/test")
     public String testJenkins() {
-        return "测试jenkins服务555";
+        return "测试jenkins服务444";
     }
 
 
